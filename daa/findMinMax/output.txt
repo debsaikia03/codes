@@ -1,0 +1,2 @@
+Minimum number: 1 
+Maximum number: 45 

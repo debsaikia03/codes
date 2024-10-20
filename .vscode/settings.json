@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "*.tcc": "c",
+        "string": "c",
+        "unordered_map": "c"
+    },
+    "workbench.localHistory.exclude": {
+        ".class": true
+    },
+    "java.debug.settings.exceptionBreakpoint.skipClasses": [
+
+
+    ],
+    "files.exclude": {
+        "**/*.class": true
+    },
+    "java.debug.settings.onBuildFailureProceed": true,
+    "liveServer.settings.port": 5501,
+    "C_Cpp.errorSquiggles": "disabled",
+
+}

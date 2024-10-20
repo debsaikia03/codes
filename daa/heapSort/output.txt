@@ -1,0 +1,16 @@
+Data loaded from file:
+0 Adarsh 39 77 231
+1 Levi 56 77 129
+2 Priya 63 78 240
+3 Dorothy 47 72 229
+4 will 24 75 171
+5 Lily 38 73 102
+6 Webster 23 75 145
+Max-heap created based on weight:
+2 Priya 63 78 240
+3 Dorothy 47 72 229
+0 Adarsh 39 77 231
+1 Levi 56 77 129
+4 will 24 75 171
+5 Lily 38 73 102
+6 Webster 23 75 145
