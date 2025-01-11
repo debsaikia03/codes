@@ -2,8 +2,7 @@
 #include<stdlib.h>
 
 int comparator(const void* p1, const void* p2){
-//void -> makes flexible to sort arrays in any datatpe
-//const -> ensures that the value is not modified that the pointers point to
+
 
     const int(*x)[3] = p1; //typecasting to the array of 3 integers
     const int(*y)[3] = p2;

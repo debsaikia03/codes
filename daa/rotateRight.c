@@ -6,7 +6,7 @@ void EXCHANGE(int *p, int *q){
     *q = temp;
 }
 
-void ROTATE_RIGHT(int *p1, int p2){
+void ROTATE_RIGHT(int *p1, int p2){ //*p1 -> pointer to the array, p2 -> no. of elements to be rotated
 
     int i = p2-1;
 

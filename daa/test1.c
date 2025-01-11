@@ -1,9 +1,45 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
 
-int main(){
+void prefixArr(int arr[], int n)
+{
 
-    int arr[5][3] = {{0, 1, 10}, {0, 2, 6}, {0, 3, 5}, {1, 3, 15}, {2, 3, 4}}; //{v1, v2, wgt}
+    int prefixArr[n];
+    int sum = 0;
 
-    printf("%d",arr[3][0]);
+    for (int i = 0; i < n; i++)
+    {
+        sum += arr[i];
+
+        prefixArr[i] = sum;
+    }
+
+    printf("\nPrefix array: ");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", prefixArr[i]);
+    }
+}
+
+int main()
+{
+    int n;
+
+    printf("Enter size of array: ");
+    scanf("%d", &n);
+
+    int arr[n];
+
+    for (int i = 0; i < n; i++)
+    {
+        printf("Enter element %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+
+    printf("Given array: \n");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+
+    prefixArr(arr, n);
 }
