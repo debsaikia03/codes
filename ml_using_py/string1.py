@@ -136,9 +136,53 @@ print(g)
 #input: ABCDAABBCDEFFGG
 #output: ABCDEFG
 
+def remove_duplicates(s):
+    result = ""
+    seen = set()  # To keep track of already seen characters
+    for char in s:
+        if char not in seen:
+            result += char  # Add the character to the result if not seen
+            seen.add(char)  # Mark the character as seen
+    return result
+
+# Input
+input_string = "ABCDAABBCDEFFGG"
+# Output
+output_string = remove_duplicates(input_string)
+print(output_string)  # Output: ABCDEFG
+
+
 #input: AABBCCDEABCD
 #output: A=3, B=3, C=3, D=2, E=1
+
+def character_frequency(s):
+    frequency = {}  # Dictionary to store character counts
+    for char in s:
+        frequency[char] = frequency.get(char, 0) + 1  # Increment count for each character
+
+    # Generate the formatted output string
+    result = ", ".join(f"{char}={count}" for char, count in frequency.items())
+    return result
+
+# Input
+input_string = "AABBCCDEABCD"
+# Output
+output_string = character_frequency(input_string)
+print(output_string)  # Output: A=3, B=3, C=3, D=2, E=1
+
+
 
 #input: "abhi"
 #input: "raj"
 #output: "abhi raj"
+
+def concatenate_strings(str1, str2):
+    return str1 + " " + str2
+
+# Input
+string1 = "abhi"
+string2 = "raj"
+
+# Output
+result = concatenate_strings(string1, string2)
+print(result)  # Output: "abhi raj"

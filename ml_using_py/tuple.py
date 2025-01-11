@@ -6,7 +6,7 @@ print(a)
 
 print(type(a))
 print(a[0],a[-6])
-print(a[-3][1])
+print(a[3][1])
 print(a[::2])
 
 #del a[0]
