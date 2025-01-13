@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgb(153, 193, 194);
+    border: 2px solid red;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(3, 25, 15)
+}
+
+.navbar a:hover{
+
+    background-color: rgba(132, 164, 132, 0.751);
+    padding: 3px;
+    border-radius: 5px;
+}

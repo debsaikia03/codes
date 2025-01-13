@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(125, 125, 193, 0.678);
+    margin: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: navy;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgb(68, 12, 128);
+}
+
+
+textarea{
+    width: 70%;
+    height: 100px;
+}
+
+.bselect{
+
+    width: 70%;
+}
